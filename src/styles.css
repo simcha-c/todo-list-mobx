@@ -1,0 +1,67 @@
+p {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.flex-form label {
+  padding: 10px 0;
+}
+
+.flex-form span {
+  font-weight: bold;
+}
+
+.all-todos-ul {
+  list-style: none;
+  border: solid black 10px;
+  padding: 0;
+}
+
+.all-todos-ul li {
+  padding: 10px 0px;
+}
+
+.all-todos-ul li > span {
+  font-weight: bold;
+}
+
+.all-todos-ul li:nth-child(odd) {
+  background-color: white;
+}
+
+.all-todos-ul li:nth-child(even) {
+  background-color: lightgray;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row p {
+  padding: 0 10px;
+  margin: 0;
+}
